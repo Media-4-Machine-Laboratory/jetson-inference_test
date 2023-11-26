@@ -102,10 +102,11 @@ COPY python python
 COPY tools tools
 COPY utils utils
 
-# input, ouput 디렉토리 추가
+# input, ouput 디렉토리, ji_estimate.sh 추가
 COPY input input
 COPY output output
-# 이 두 디렉토리를 추가하는게 변경사항.
+COPY ji_estimate.sh ji_estimate.sh
+# 추가하는게 변경사항.
 
 COPY data/networks/models.json data/networks/models.json
 
